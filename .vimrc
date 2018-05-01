@@ -651,11 +651,6 @@
     " }
 
 
-    " TagBar {
-        if isdirectory(expand("~/.vim/bundle/tagbar/"))
-            nnoremap <silent> <leader>tt :TagbarToggle<CR>
-        endif
-    "}
 
     " Rainbow {
         if isdirectory(expand("~/.vim/bundle/rainbow/"))

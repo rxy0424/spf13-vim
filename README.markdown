@@ -420,15 +420,6 @@ Tabularize lets you align statements on their equal signs and other characters
  * `<Leader>a, :Tabularize /,<CR>`
  * `<Leader>a<Bar> :Tabularize /<Bar><CR>`
 
-## [Tagbar]
-
-spf13-vim includes the Tagbar plugin. This plugin requires exuberant-ctags and will automatically generate tags for your open files. It also provides a panel to navigate easily via tags
-
-**QuickStart** `CTRL-]` while the cursor is on a keyword (such as a function name) to jump to its definition.
-
-**Customizations**: spf13-vim binds `<Leader>tt` to toggle the tagbar panel
-
-![tagbar image][tagbar-img]
 
 **Note**: For full language support, run `brew install ctags` to install
 exuberant-ctags.
@@ -543,7 +534,6 @@ Here's some tips if you've never used VIM before:
 [neocomplete]:https://github.com/shougo/neocomplete
 [Fugitive]:https://github.com/tpope/vim-fugitive
 [Surround]:https://github.com/tpope/vim-surround
-[Tagbar]:https://github.com/majutsushi/tagbar
 [Syntastic]:https://github.com/scrooloose/syntastic
 [vim-easymotion]:https://github.com/Lokaltog/vim-easymotion
 [YouCompleteMe]:https://github.com/Valloric/YouCompleteMe
@@ -559,7 +549,6 @@ Here's some tips if you've never used VIM before:
 [spf13-vim-img]:https://i.imgur.com/UKToY.png
 [spf13-vimrc-img]:https://i.imgur.com/kZWj1.png
 [autocomplete-img]:https://i.imgur.com/90Gg7.png
-[tagbar-img]:https://i.imgur.com/cjbrC.png
 [fugitive-img]:https://i.imgur.com/4NrxV.png
 [nerdtree-img]:https://i.imgur.com/9xIfu.png
 [phpmanual-img]:https://i.imgur.com/c0GGP.png
