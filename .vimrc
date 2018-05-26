@@ -421,8 +421,8 @@
 
     " Shortcuts
     " Change Working Directory to that of the current file
-    cmap cwd lcd %:p:h
-    cmap cd. lcd %:p:h
+    " cmap cwd lcd %:p:h
+    " cmap cd. lcd %:p:h
 
     " Visual shifting (does not exit Visual mode)
     vnoremap < <gv
