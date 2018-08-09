@@ -60,19 +60,19 @@ call plug#begin('~/.vim/bundle')
     " Deps {
         Plug 'MarcWeber/vim-addon-mw-utils'
         Plug 'tomtom/tlib_vim'
-        if executable('ag') || executable('rg')
-            Plug 'mileszs/ack.vim'
-            if executable('ag')
-                let g:ackprg = 'ag --nogroup --nocolor --column --smart-case'
-            elseif executable('rg')
-                let g:ackprg = 'rg --vimgrep --no-heading'
-            endif
-        elseif executable('ack-grep')
-            let g:ackprg="ack-grep -H --nocolor --nogroup --column"
-            Plug 'mileszs/ack.vim'
-        elseif executable('ack')
-            Plug 'mileszs/ack.vim'
-        endif
+        " if executable('ag') || executable('rg')
+            " Plug 'mileszs/ack.vim'
+            " if executable('ag')
+                " let g:ackprg = 'ag --nogroup --nocolor --column --smart-case'
+            " elseif executable('rg')
+                " let g:ackprg = 'rg --vimgrep --no-heading'
+            " endif
+        " elseif executable('ack-grep')
+            " let g:ackprg="ack-grep -H --nocolor --nogroup --column"
+            " Plug 'mileszs/ack.vim'
+        " elseif executable('ack')
+            " Plug 'mileszs/ack.vim'
+        " endif
     " }
 
     " In your .vimrc.before.local file
